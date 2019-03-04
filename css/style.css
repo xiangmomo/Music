@@ -1,0 +1,46 @@
+*{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+#momo{
+	position: fixed;
+	bottom: -300px;
+	left: -320px;
+	transition:2s bottom,0.4s left;
+}
+#momo:hover{
+	bottom: -0px;
+	left: -0px;
+}
+
+#momo-bidy{
+	background-color: darkgray;
+}
+
+
+#momo div{
+	top:10px;
+	right: -10px;
+	position: absolute;
+	width: 20px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	background-color: red;
+	color: #fff;
+}
+h1{
+	text-align: center;
+	font-size:80px ;
+	padding: 50px 0 20px 0;
+}
+h6{
+	text-align: center;
+}
+
+*{
+	/*outline: solid 1px royalblue;*/
+}
